@@ -9,7 +9,6 @@ body {
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
   /*background-color: black;*/
-   background-image: url("airplane_pic.gif");
 }
 html {
   width: 100%;
@@ -221,7 +220,15 @@ a:focus {
 .content-section {
   padding-top: 100px;
 }
-.about-section {background-position: left;}
+/*.about-section {
+	 margin: center;
+	 
+	}
+	*/
+.textAbout{
+	float: right;
+}
+
 
 .download-section {
   width: 100%;
@@ -306,12 +313,14 @@ footer p {
   background: #fcfcfc;
   background: rgba(255, 255, 255, 0.2);
 }
-img::selection {
+/*
+<!--img::selection {
   background: transparent;
 }
 img::-moz-selection {
   background: transparent;
 }
+*/
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
