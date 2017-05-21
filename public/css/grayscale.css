@@ -8,7 +8,8 @@ body {
   height: 100%;
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
-  background-color: black;
+  /*background-color: black;*/
+   background-image: url("airplane_pic.gif");
 }
 html {
   width: 100%;
@@ -220,6 +221,8 @@ a:focus {
 .content-section {
   padding-top: 100px;
 }
+.about-section {background-position: left;}
+
 .download-section {
   width: 100%;
   padding: 50px 0;
